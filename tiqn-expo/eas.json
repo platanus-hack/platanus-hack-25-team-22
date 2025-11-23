@@ -1,0 +1,51 @@
+{
+  "cli": {
+    "version": ">= 13.2.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_CONVEX_URL": "https://festive-kiwi-66.convex.cloud",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyAVuPPVIwkNLd0jqXYg88Fhz_jz08H7O7M",
+        "EXPO_PUBLIC_ELEVENLABS_AGENT_ID": "agent_5701kapv9k2dfkgsxhsemevdw952"
+      },
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_CONVEX_URL": "https://festive-kiwi-66.convex.cloud",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyAVuPPVIwkNLd0jqXYg88Fhz_jz08H7O7M",
+        "EXPO_PUBLIC_ELEVENLABS_AGENT_ID": "agent_5701kapv9k2dfkgsxhsemevdw952"
+      },
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_CONVEX_URL": "https://festive-kiwi-66.convex.cloud",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyAVuPPVIwkNLd0jqXYg88Fhz_jz08H7O7M",
+        "EXPO_PUBLIC_ELEVENLABS_AGENT_ID": "agent_5701kapv9k2dfkgsxhsemevdw952"
+      },
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "marcogomezf@gmail.com",
+        "ascAppId": "6755620134",
+        "appleTeamId": "488UG9965Y"
+      }
+    }
+  }
+}
